@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>一粒葡萄</title>
+    <style>
+      body {
+        background-color: black;
+        color: aliceblue;
+        margin: 0;
+        height: 100vh;
+      }
+      .flex {
+        display: flex;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .zw {
+        font-size: 100px;
+        line-height: 2;
+      }
+      .huise {
+        background-color: rgba(65, 63, 63, 0.3);
+      }
+      .jz {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .mgr {
+        margin-right: 100px;
+      }
+      .xz {
+        font-size: 50px;
+      }
+    </style>
+  </head>
+  <body class="flex column">
+    <!--头部栏-->
+    <div class="flex huise" style="height: 300px">
+      <div class="xz jz mgr" style="margin-left: 2000px">
+        <img src="葡萄.png" alt="葡萄" width="200px" height="200px" />
+        <p>一粒葡萄</p>
+      </div>
+      <div class="xz jz mgr"><p>主页</p></div>
+      <div class="xz jz mgr"><p>1</p></div>
+      <div class="xz jz mgr"><p>2</p></div>
+    </div>
+
+    <!--内容栏-->
+    <div class="flex1" style="margin-left: 1000px; margin-right: 1000px">
+      <div class="zw">
+        <p>你好，欢迎来到一粒葡萄的主页。</p>
+      </div>
+    </div>
+    <!--底部栏-->
+    <div class="huise" style="height: 200px"></div>
+  </body>
+</html>
